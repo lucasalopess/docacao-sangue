@@ -1,0 +1,7 @@
+# doacao_sangue/apps.py
+from django.apps import AppConfig
+
+
+class DoacaoConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'doacao_sangue'
