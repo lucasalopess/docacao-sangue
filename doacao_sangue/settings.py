@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-)!n1g@q0x1u37(^&s2)@_j#h2u8*)(k_#i8akxczs+x*nylkgh
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0', '127.0.0.1', 'localhost']
 
 # Application definition
 
@@ -75,9 +75,9 @@ WSGI_APPLICATION = 'doacao_sangue.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'doacao-sangue',
+        'NAME': 'doacao_sangue',
         'USER': 'root',
-        'PASSWORD': 'admin',
+        'PASSWORD': 'mysecretpassword',
         'HOST': 'localhost',
         'PORT': '5432',
     }
